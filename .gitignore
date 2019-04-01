@@ -38,3 +38,5 @@ favicon.ico
 **/tests/codeception/_support/_generated/**
 
 **/tests/codeception/_output/**
+/logs/
+/.gitignore
