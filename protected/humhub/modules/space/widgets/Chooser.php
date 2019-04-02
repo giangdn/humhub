@@ -24,7 +24,7 @@ class Chooser extends Widget
         $spaceInfo['guid'] = $space->guid;
         $spaceInfo['title'] = $space->name;
         $spaceInfo['tags'] = Html::encode($space->tags);
-        $spaceInfo['image'] = Image::widget(['space' => $space, 'width' => 24]);
+        $spaceInfo['image'] = Image::widget(['space' => $space, 'width' => 32]);
         $spaceInfo['link'] = $space->getUrl();
 
         if ($withChooserItem) {

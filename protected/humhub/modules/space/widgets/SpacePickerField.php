@@ -60,7 +60,7 @@ class SpacePickerField extends BasePicker
      */
     protected function getItemImage($item)
     {
-        return Image::widget(['space' => $item, 'width' => 24]);
+        return Image::widget(['space' => $item, 'width' => 32]);
     }
 
 }
