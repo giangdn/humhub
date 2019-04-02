@@ -54,7 +54,7 @@ $this->registerJsConfig('space.chooser', [
                            title="<?= Yii::t('SpaceModule.widgets_views_spaceChooser', 'Search for spaces'); ?>">
                     <span id="space-directory-link" class="input-group-addon" >
                         <a href="<?= Url::to(['/directory/directory/spaces']); ?>">
-                            <i class="fa fa-book"></i>
+                            <i class="fa fa-search"></i>
                         </a>
                     </span>
                     <div class="search-reset" id="space-search-reset"><i class="fa fa-times-circle"></i></div>
