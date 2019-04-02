@@ -611,7 +611,8 @@ input[type=select] {
 
 #topbar-second .nav>li>a#space-menu {
   padding-right: 13px;
-  border-right: 1px solid #ededed
+  border-right: 1px solid #ededed;
+  min-height: 50px;
 }
 
 #topbar-second .nav>li>a#search-menu {
@@ -5026,4 +5027,13 @@ ul.tag_input li img {
 {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.dropdown-menu li a.btn {
+  transition: all 0.2s;
+}
+.dropdown-menu li a.btn-default:hover
+{
+  background-color: #e8e8e8;
+  color: #525f7f;
 }
