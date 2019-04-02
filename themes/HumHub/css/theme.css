@@ -468,6 +468,10 @@ input[type=select] {
   padding: 0
 }
 
+#topbar-second .media-list a:hover {
+  color: #6772e5;
+}
+
 #topbar-second .media-list li {
   color: #525f7f
 }
@@ -602,7 +606,7 @@ input[type=select] {
 #topbar-second .nav>li>ul>li>a.active {
   border-left: 3px solid #6772e5;
   background-color: #f7f7f7;
-  color: #525f7f
+  color: #6772e5;
 }
 
 #topbar-second .nav>li>a#space-menu {
@@ -5016,4 +5020,10 @@ ul.tag_input li img {
 .fa.fa-dot-circle-o
 {
   font-size: 18px !important;
+}
+
+.btn-group.open .dropdown-toggle
+{
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
