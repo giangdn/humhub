@@ -36,7 +36,6 @@ class PoweredBy extends Widget
      */
     public function run()
     {
-
         if (isset(Yii::$app->params['hidePoweredBy'])) {
             return '';
         }

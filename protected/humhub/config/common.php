@@ -158,6 +158,7 @@ $config = [
     'params' => [
         'installed' => false,
         'databaseInstalled' => false,
+        'hidePoweredBy' => true,
         'dynamicConfigFile' => '@config/dynamic.php',
         'moduleAutoloadPaths' => ['@app/modules', '@humhub/modules'],
         'moduleMarketplacePath' => '@app/modules',
