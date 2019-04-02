@@ -1998,12 +1998,12 @@ a.label-warning:hover {
 .has-error .checkbox,
 .has-error .radio-inline,
 .has-error .checkbox-inline {
-  color: #ff8989 !important
+  color: #dc3545 !important
 }
 
 .has-error .form-control,
 .has-error .form-control:focus {
-  border-color: #ff8989;
+  border-color: #dc3545;
   -webkit-box-shadow: none;
   box-shadow: none
 }
@@ -2014,12 +2014,12 @@ a.label-warning:hover {
 .has-success .checkbox,
 .has-success .radio-inline,
 .has-success .checkbox-inline {
-  color: #97d271
+  color: #28a745
 }
 
 .has-success .form-control,
 .has-success .form-control:focus {
-  border-color: #97d271;
+  border-color: #28a745;
   -webkit-box-shadow: none;
   box-shadow: none
 }
