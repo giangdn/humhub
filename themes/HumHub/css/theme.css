@@ -2236,7 +2236,7 @@ a.list-group-item.active:focus {
 .modal h3,
 .modal h4,
 .modal h5 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: #525f7f;
   font-weight: 300
 }
@@ -2266,7 +2266,7 @@ a.list-group-item.active:focus {
 }
 
 .modal-content .modal-header {
-  padding: 20px 20px 0;
+  padding: 16px 16px 10px;
   border-bottom: none;
   text-align: center
 }
@@ -2277,14 +2277,14 @@ a.list-group-item.active:focus {
 }
 
 .modal-content .modal-body {
-  padding: 20px;
+  padding: 16px;
   font-size: 13px
 }
 
 .modal-content .modal-footer {
   margin-top: 0;
   text-align: left;
-  padding: 10px 20px 30px;
+  padding: 10px 16px 16px;
   border-top: none;
   text-align: center
 }
