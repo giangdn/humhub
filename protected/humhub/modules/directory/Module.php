@@ -87,7 +87,7 @@ class Module extends \humhub\components\Module
             $event->sender->addItem([
                 'label' => Yii::t('DirectoryModule.base', 'Directory'),
                 'id' => 'directory',
-                'icon' => '<i class="fa fa-book"></i>',
+                'icon' => '<i class="fa fa-wpexplorer"></i>',
                 'url' => Url::to(['/directory/directory']),
                 'sortOrder' => 400,
                 'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'directory'),
