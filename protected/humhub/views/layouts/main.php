@@ -18,21 +18,23 @@
         <?php $this->beginBody() ?>
 
         <!-- start: first top navigation bar -->
+        <!-- 
         <div id="topbar-first" class="topbar">
             <div class="container">
                 <div class="topbar-brand hidden-xs">
-                    <?= \humhub\widgets\SiteLogo::widget(); ?>
+                    <?php //echo \humhub\widgets\SiteLogo::widget(); ?>
                 </div>
 
                 <div class="topbar-actions pull-right">
-                    <?= \humhub\modules\user\widgets\AccountTopMenu::widget(); ?>
+                    <?php //echo \humhub\modules\user\widgets\AccountTopMenu::widget(); ?>
                 </div>
 
                 <div class="notifications pull-right">
-                    <?= \humhub\widgets\NotificationArea::widget(); ?>
+                    <?php //echo \humhub\widgets\NotificationArea::widget(); ?>
                 </div>
             </div>
         </div>
+        -->
         <!-- end: first top navigation bar -->
 
         <!-- start: second top navigation bar -->
@@ -44,11 +46,18 @@
 
                     <!-- load navigation from widget -->
                     <?= \humhub\widgets\TopMenu::widget(); ?>
-                </ul>
-
-                <ul class="nav pull-right" id="search-menu-nav">
+                    
+                    <!-- search icon move here -->
                     <?= \humhub\widgets\TopMenuRightStack::widget(); ?>
                 </ul>
+
+				<div class="topbar-actions pull-right">
+                    <?php echo \humhub\modules\user\widgets\AccountTopMenu::widget(); ?>
+                </div>
+				
+				<div class="notifications pull-right">
+                    <?php echo \humhub\widgets\NotificationArea::widget(); ?>
+                </div>
             </div>
         </div>
         <!-- end: second top navigation bar -->

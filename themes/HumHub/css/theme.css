@@ -121,7 +121,7 @@
 }
 
 body {
-  padding-top: 130px;
+  padding-top: 70px;
   background-color: #f6f9fc;
   color: #525f7f;
   font-family: Tahoma, 'Open Sans', sans-serif;
@@ -139,13 +139,18 @@ body a.active {
 
 @media (max-width:920px) {
   body {
-    padding-top: 115px
+    padding-top: 70px
   }
 }
 
 @media (min-width:768px) and (max-width:920px) {
   body {
-    padding-top: 120px
+    padding-top: 70px
+  }
+  
+  .layout-nav-container
+  {
+  	padding-right: 15px !important;
   }
 }
 
@@ -196,7 +201,7 @@ hr {
 }
 
 @media (min-width:768px) and (max-width:920px) {
-  #topbar-first .container,
+  #topbar-second .container,
   #topbar-second .container {
     padding-left: 10px;
     padding-right: 20px
@@ -280,7 +285,7 @@ input[type=select] {
   color: #bebebe
 }
 
-#topbar-first {
+#topbar-second {
   /* background-color: #708fa0; */
   background: url("../img/blue-bg-material.jpg") #3297D3;
   top: 0;
@@ -288,69 +293,74 @@ input[type=select] {
   color: white
 }
 
-#topbar-first .nav>li>a:hover,
-#topbar-first .nav>.open>a {
+#account-dropdown-link
+{
+  border-bottom: 0 !important;
+}
+
+#topbar-second .nav>li>a:hover,
+#topbar-second .nav>.open>a {
   background-color: #8fa7b4
 }
 
-#topbar-first .nav>.account {
+#topbar-second .nav>.account {
   height: 50px;
   margin-left: 20px
 }
 
-#topbar-first .nav>.account img {
+#topbar-second .nav>.account img {
   margin-left: 10px
 }
 
-#topbar-first .nav>.account .dropdown-toggle {
-  padding: 10px 5px 8px;
-  line-height: 1.1em;
+#topbar-second .nav>.account .dropdown-toggle {
+  padding: 8px 5px;
+  line-height: 1.2em;
   text-align: left
 }
 
-#topbar-first .nav>.account .dropdown-toggle span {
+#topbar-second .nav>.account .dropdown-toggle span {
   font-size: 12px
 }
 
-#topbar-first .topbar-brand {
+#topbar-second .topbar-brand {
   position: relative;
   z-index: 2
 }
 
-#topbar-first .topbar-actions {
+#topbar-second .topbar-actions {
   position: relative;
   z-index: 3
 }
 
-#topbar-first .notifications {
-  position: absolute;
+#topbar-second .notifications {
+  /* position: absolute;
   left: 0;
-  right: 0;
+  right: 0; */
   text-align: center;
   z-index: 1
 }
 
-#topbar-first .notifications .btn-group {
+#topbar-second .notifications .btn-group {
   position: relative;
   text-align: left
 }
 
-#topbar-first .notifications .btn-group>a {
+#topbar-second .notifications .btn-group>a {
   padding: 5px 10px;
-  margin: 10px 2px;
+  margin: 8px 4px;
   display: inline-block;
   border-radius: 2px;
   text-decoration: none;
   text-align: left
 }
 
-#topbar-first .notifications .btn-group>.label {
+#topbar-second .notifications .btn-group>.label {
   position: absolute;
   top: 4px;
   right: -2px
 }
 
-#topbar-first .notifications .arrow:after {
+#topbar-second .notifications .arrow:after {
   position: absolute;
   display: block;
   width: 0;
@@ -366,7 +376,7 @@ input[type=select] {
   z-index: 1035
 }
 
-#topbar-first .notifications .arrow {
+#topbar-second .notifications .arrow {
   position: absolute;
   display: block;
   width: 0;
@@ -379,122 +389,122 @@ input[type=select] {
   margin-left: -18px;
   border-top-width: 0;
   border-bottom-color: rgba(0, 0, 0, 0.15);
-  top: -19px;
+  top: -14px;
   z-index: 1035
 }
 
-#topbar-first .notifications .dropdown-menu {
+#topbar-second .notifications .dropdown-menu {
   width: 350px;
   margin-left: -148px
 }
 
-#topbar-first .notifications .dropdown-menu ul.media-list {
+#topbar-second .notifications .dropdown-menu ul.media-list {
   max-height: 400px;
   overflow: auto
 }
 
-#topbar-first .notifications .dropdown-menu li {
+#topbar-second .notifications .dropdown-menu li {
   position: relative
 }
 
-#topbar-first .notifications .dropdown-menu li i.approval {
+#topbar-second .notifications .dropdown-menu li i.approval {
   position: absolute;
   left: 2px;
   top: 36px;
   font-size: 14px
 }
 
-#topbar-first .notifications .dropdown-menu li i.accepted {
+#topbar-second .notifications .dropdown-menu li i.accepted {
   color: #5cb85c
 }
 
-#topbar-first .notifications .dropdown-menu li i.declined {
+#topbar-second .notifications .dropdown-menu li i.declined {
   color: #d9534f
 }
 
-#topbar-first .notifications .dropdown-menu li .media {
+#topbar-second .notifications .dropdown-menu li .media {
   position: relative
 }
 
-#topbar-first .notifications .dropdown-menu li .media .img-space {
+#topbar-second .notifications .dropdown-menu li .media .img-space {
   position: absolute;
   top: 14px;
   left: 14px
 }
 
-#topbar-first .dropdown-footer {
+#topbar-second .dropdown-footer {
   margin: 10px 10px 5px
 }
 
-#topbar-first a {
+#topbar-second a {
   color: #525f7f;
   transition: color 0.2s;
 }
 
-#topbar-first a:hover
+#topbar-second a:hover
 {
   color: #6772e5;
 }
 
-#topbar-first .caret {
+#topbar-second .caret {
   border-top-color: #bebebe
 }
 
-#topbar-first .btn-group>a {
-  background-color: #7f9baa
+#topbar-second .btn-group>a {
+  /* background-color: #7f9baa */
 }
 
-#topbar-first .btn-enter {
+#topbar-second .btn-enter {
   background-color: #7f9baa;
   margin: 6px 0
 }
 
-#topbar-first .btn-enter:hover {
+#topbar-second .btn-enter:hover {
   background-color: #89a2b0
 }
 
-#topbar-first .media-list a {
+#topbar-second .media-list a {
   color: #525f7f;
   padding: 0
 }
 
-#topbar-first .media-list li {
+#topbar-second .media-list li {
   color: #525f7f
 }
 
-#topbar-first .media-list li i.accepted {
+#topbar-second .media-list li i.accepted {
   color: #6772e5 !important
 }
 
-#topbar-first .media-list li i.declined {
+#topbar-second .media-list li i.declined {
   color: #ff8989 !important
 }
 
-#topbar-first .media-list li.placeholder {
+#topbar-second .media-list li.placeholder {
   border-bottom: none
 }
 
-#topbar-first .media-list .media .media-body .label {
+#topbar-second .media-list .media .media-body .label {
   padding: .1em .5em
 }
 
-#topbar-first .account .user-title {
+#topbar-second .account .user-title {
   text-align: right
 }
 
-#topbar-first .account .user-title span {
-  color: #d7d7d7
+#topbar-second .account .user-title span {
+  color: #aeaeae;
 }
 
-#topbar-first .dropdown.account>a,
-#topbar-first .dropdown.account.open>a,
-#topbar-first .dropdown.account>a:hover,
-#topbar-first .dropdown.account.open>a:hover {
+#topbar-second .dropdown.account>a,
+#topbar-second .dropdown.account.open>a,
+#topbar-second .dropdown.account>a:hover,
+#topbar-second .dropdown.account.open>a:hover {
   /* background-color: #708fa0 */
 }
 
 #topbar-second {
-  top: 50px;
+  top: 0px;
   background-color: #fff;
   z-index: 1029;
   background-image: none;
@@ -554,7 +564,7 @@ input[type=select] {
   text-shadow: none;
   font-weight: 500;
   font-size: 12px;
-  min-height: 50px;
+  /* min-height: 50px; */
   text-transform: none;
   text-align: center;
   transition: background-color 0.2s, color 0.2s, border-bottom-color 0.2s;
@@ -584,7 +594,8 @@ input[type=select] {
 #topbar-second .nav>li>ul>li>a {
   border-left: 3px solid #fff;
   background-color: #fff;
-  color: #525f7f
+  color: #525f7f;
+  transition: all 0.2s;
 }
 
 #topbar-second .nav>li>ul>li>a:hover,
@@ -600,7 +611,7 @@ input[type=select] {
 }
 
 #topbar-second .nav>li>a#search-menu {
-  padding-top: 15px
+  /* padding-top: 15px */
 }
 
 #topbar-second .nav>li>a:hover,
@@ -2044,11 +2055,20 @@ a.label-warning:hover {
     float: left !important
   }
   .notifications .dropdown-menu {
-    width: 300px !important;
+    width: 100% !important;
     margin-left: 0 !important
   }
   .notifications .dropdown-menu .arrow {
-    margin-left: -142px !important
+    margin-right: -142px !important
+  }
+  
+  #dropdown-messages {
+  	width: 100% !important;
+  }
+  
+  #notification_widget,
+  .notifications>.btn-group.open {
+  	position: static !important;
   }
 }
 
@@ -2741,7 +2761,7 @@ table td a:hover {
 
 #wall-stream-filter-nav {
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 2px;
   border-radius: 0 0 4px 4px
 }
@@ -2762,9 +2782,9 @@ table td a:hover {
 
 #wall-stream-filter-nav .wall-stream-filter-body {
   overflow: hidden;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  border-top: 0;
+  background-color: #ffffff;
+  border: 1px solid #6772e5;
+  border-top-width: 3px;
   border-radius: 0 0 4px 4px
 }
 
@@ -4992,4 +5012,8 @@ ul.tag_input li img {
   font-size: 14px;
   cursor: pointer;
   line-height: 8px
+}
+.fa.fa-dot-circle-o
+{
+  font-size: 18px !important;
 }

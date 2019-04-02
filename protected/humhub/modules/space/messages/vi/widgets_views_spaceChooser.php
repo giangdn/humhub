@@ -1,7 +1,7 @@
 <?php
 return array (
   'Create new space' => 'Tạo Space mới',
-  'My spaces' => 'Các Space của tôi',
+  'My spaces' => 'Space',
   'No member or following spaces found.' => 'Không tìm thấy thành viên hoặc Space nào mà bạn theo.',
   'No result found for the given filter.' => 'Không tìm thấy kết quả',
   'Search' => 'Tìm kiếm',
